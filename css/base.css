@@ -1,4 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   text-align: center;
   display: inline-block;
+}
+
+html {
+  margin: auto;
+  width: 482px;
+  border: solid darkgrey 1px;
+}
+
+@media (min-width:768px) {
+  
+  html {
+    margin: auto;
+    width: 962px;
+    border: solid darkgrey 1px;
+  }
+
 }

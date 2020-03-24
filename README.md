@@ -16,11 +16,18 @@ Use SMACSS-style modularity to organize your CSS.
 - For the desktop view, the content should be inside of a channel that is a maximum of 960 pixels wide and is centered on wider screen sizes.
 - Each box should have a unique background color in mobile view and in desktop view. We are not working with jQuery events yet, so these changes should be observed when the screen size changes and the page is refreshed.
 
+# Challenges
+1. When I started working on the mobile version, I was getting a space betwwen elements when using the display inline-block. I found an article online (referece 1), and I used this for the div's in sections 2 and 3. Later on I when I was working on the desktop version, I learned that I could have use a float left on the divs. 
+
+2. I looked online for the best way to center elements and used the link in reference 2 below. 
+
 # References
 
-I was getting an space betwwen elements when using the display inline-block. I searched the web and found this. I used this for the div's in sections 2 and 3. Later on I when I was working on the desktop version, I learned that I could have use a float left on the divs. 
+- https://css-tricks.com/fighting-the-space-between-inline-block-elements/
 
-https://css-tricks.com/fighting-the-space-between-inline-block-elements/
+- https://www.w3schools.com/css/css_align.asp
+
+- http://smacss.com/book/categorizing
 
 # Author 
 - Chuck Li Villalobos
